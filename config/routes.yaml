@@ -1,3 +1,15 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+index:
+   path: /todo/
+   controller: App\Controller\TodoController::index
+
+  #  guardar:
+  #  path: /todo/guardar
+  #  controller: App\Controller\TodoController::guardar
+
+  #  mostrar:
+  #  path: /todo/mostrar
+  #  controller: App\Controller\TodoController::mostrar
+
+  #  creacion:
+  #  path: /todo/creacion
+  #  controller: App\Controller\TodoController::creacion
